@@ -3,19 +3,19 @@ entries:
   efk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-24T10:55:26.637200163Z
+    created: 2018-10-24T10:58:23.79952714Z
     description: A Helm chart for EFK
-    digest: 7b378a4c027e696cdff39b6f7a9fff847c8e0d864591249bd4daed8b5f606793
+    digest: 5590c974a783418764d44af19aa0bfaf9be2356a694dcbcb816d5794fcdec939
     name: efk
     urls:
     - efk/efk-0.1.0.tgz
     version: 0.1.0
   elasticsearch:
   - appVersion: 6.4.2
-    created: 2018-10-24T10:55:26.63779658Z
+    created: 2018-10-24T10:58:23.800056723Z
     description: Flexible and powerful open source, distributed real-time search and
       analytics engine.
-    digest: 8412c14bd570e18bc1a928f19afd3fec35ab5c4536670a7161c8534d8f7a4f7c
+    digest: 38786b2d096c827b104b9fc11b9ecdc8184953c67cb4c2bc5476d8da94c00318
     maintainers:
     - email: zhanghf@zailingtech.com
       name: zhanghaifeng
@@ -26,10 +26,10 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 4.1.2
-    created: 2018-10-24T10:55:26.639639499Z
+    created: 2018-10-24T10:58:23.801419806Z
     description: Apache Kafka is publish-subscribe messaging rethought as a distributed
       commit log.
-    digest: 9b7053d477678b575c5ab9f0a8084dc46c21d2e3a485ec645a8254751e81a1f4
+    digest: 10dbd16715f6d05a6fde55714efa9b71b271a1ae06ffea94a979423091d125ec
     home: https://kafka.apache.org/
     icon: https://kafka.apache.org/images/logo.png
     keywords:
@@ -54,11 +54,11 @@ entries:
     version: 0.11.1
   redis:
   - appVersion: 4.0.11
-    created: 2018-10-24T10:55:26.640847154Z
+    created: 2018-10-24T10:58:23.802303608Z
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: ec1271f3a88db46692185ef51c6f07181d478d7ba9e95ca0f68625a351b4ba4b
+    digest: 815a52acf48fb4232eb8ea7f9d310e6a80987d755aab6cf1715ed66b8b4dd3d2
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -77,10 +77,10 @@ entries:
     version: 4.1.2
   zookeeper:
   - appVersion: 3.4.10
-    created: 2018-10-24T10:55:26.64159697Z
+    created: 2018-10-24T10:58:23.802836192Z
     description: Centralized service for maintaining configuration information, naming,
       providing distributed synchronization, and providing group services.
-    digest: 6ad713fd552d734d7008a4e4f1362bb20fa65a3cb7a704134de3bf27a67e063c
+    digest: 04e12b28066b8d1096417c7fcd32b04b6e02e277a1e4bfcb17771931bd6e218a
     home: https://zookeeper.apache.org/
     icon: https://zookeeper.apache.org/images/zookeeper_small.gif
     maintainers:
@@ -95,4 +95,4 @@ entries:
     urls:
     - zookeeper/zookeeper-1.2.0.tgz
     version: 1.2.0
-generated: 2018-10-24T10:55:26.635327595Z
+generated: 2018-10-24T10:58:23.797872553Z
