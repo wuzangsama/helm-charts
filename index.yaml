@@ -1,12 +1,25 @@
 apiVersion: v1
 entries:
+  elasticsearch:
+  - appVersion: 6.4.2
+    created: 2018-10-24T10:27:41.770754651Z
+    description: Flexible and powerful open source, distributed real-time search and
+      analytics engine.
+    digest: f59ed495e46fdc1a3a3f0a15009b00c72f5685b54efadbe9a4ce53c550f81d3b
+    maintainers:
+    - email: zhanghf@zailingtech.com
+      name: zhanghaifeng
+    name: elasticsearch
+    urls:
+    - elasticsearch/elasticsearch-1.9.2.tgz
+    version: 1.9.2
   redis:
   - appVersion: 4.0.11
-    created: 2018-10-24T09:52:53.94008841Z
+    created: 2018-10-24T10:27:41.771556426Z
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 309db35c504f3a09d243e1663031c8a983f2a76cbea2f941d91b7819a23da7b9
+    digest: 62e91fca0cc674092f0ea20f081860831774a1ef29aaf100505128e603fb6c5c
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -23,4 +36,24 @@ entries:
     urls:
     - redis/redis-4.1.2.tgz
     version: 4.1.2
-generated: 2018-10-24T09:52:53.939200414Z
+  zookeeper:
+  - appVersion: 3.4.10
+    created: 2018-10-24T10:27:41.772064243Z
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: 0c8898144241adf053a02c218087642378f80c20aad1adcc30ba04213e64b1e3
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - zookeeper/zookeeper-1.2.0.tgz
+    version: 1.2.0
+generated: 2018-10-24T10:27:41.770132981Z
